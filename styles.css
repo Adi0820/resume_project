@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.summary,
+.skills,
+.projects,
+.education,
+.certifications {
+    margin-bottom: 2rem;
+}
+
+.summary h2,
+.skills h2,
+.projects h2,
+.education h2,
+.certifications h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 0.5rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.education-item,
+.certification {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
